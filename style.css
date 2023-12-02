@@ -100,6 +100,13 @@ body{
 #navbar li a:hover, #navbar li a.active{
     color: #088178 ;
 }
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
 
 #navbar li a.active::after, #navbar li a:hover::after{
     content: "";
@@ -491,6 +498,16 @@ footer a{
     border-radius: 6px;
   }
 
-  footer .install img{
-    margin: 10px 0 15x 0;
+  footer .install img{ 
+    margin: 10px 0 15px 0; 
+  }  
+
+  footer .follow i:hover, footer a:hover{
+    color: #088178;
   }
+
+  footer .copyright{
+    width: 100%;
+    text-align: center;
+  }
+
