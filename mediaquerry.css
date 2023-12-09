@@ -131,14 +131,20 @@
     footer .copyright{
         text-align: start;
     }
+
+    /* product description page */
+    #prodetails {
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+    }
+    #prodetails .single-pro-details{
+        width: 100%;
+    }
 }
 
-/* @media only screen and (max-width:1480px){
-#sm-banner .banner-box{
-    border-radius: 50px;
-}
-} */
 
-@media (min-width:800px) and (max-width:1480px) {
+/* @media (min-width:800px) and (max-width:1480px) {
     
-}
+} */

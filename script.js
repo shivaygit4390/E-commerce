@@ -13,3 +13,32 @@ if(close){
         nav.classList.remove('active');
     })
 }
+
+// slider property of the product description
+let MainImg = document.getElementById("MainImg");
+let smallimg = document.getElementsByClassName("small-img");
+smallimg[0].onmouseover = () =>{
+    MainImg.src = smallimg[0].src;
+}
+smallimg[1].onmouseover = () =>{
+    MainImg.src = smallimg[1].src;
+}
+smallimg[2].onmouseover = () =>{
+    MainImg.src = smallimg[2].src;
+}
+smallimg[3].onmouseover = () =>{
+    MainImg.src = smallimg[3].src;
+}
+
+smallimg[0].onclic = () =>{
+    MainImg.src = smallimg[0].src;
+}
+smallimg[1].onclic = () =>{
+    MainImg.src = smallimg[1].src;
+}
+smallimg[2].onclic = () =>{
+    MainImg.src = smallimg[2].src;
+}
+smallimg[3].onclic = () =>{
+    MainImg.src = smallimg[3].src;
+}
