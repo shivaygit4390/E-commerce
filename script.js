@@ -30,15 +30,15 @@ smallimg[3].onmouseover = () =>{
     MainImg.src = smallimg[3].src;
 }
 
-smallimg[0].onclic = () =>{
+smallimg[0].onclick = () =>{
     MainImg.src = smallimg[0].src;
 }
-smallimg[1].onclic = () =>{
+smallimg[1].onclick = () =>{
     MainImg.src = smallimg[1].src;
 }
-smallimg[2].onclic = () =>{
+smallimg[2].onclick = () =>{
     MainImg.src = smallimg[2].src;
 }
-smallimg[3].onclic = () =>{
+smallimg[3].onclick = () =>{
     MainImg.src = smallimg[3].src;
 }
