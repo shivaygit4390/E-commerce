@@ -65,6 +65,7 @@ body{
 /* start header */
 
 #header{
+ height: 65px;
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -75,6 +76,10 @@ body{
  position: sticky;
  left: 0;
  top: 0;
+}
+
+#header a img{
+    display: none;
 }
 
 #navbar{
